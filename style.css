@@ -1,0 +1,60 @@
+/*Amardeep Sanjaybhai Patel, 000892525*/
+
+#board {
+    border: 5px solid lightblue;
+    margin: 10px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    color:azure;
+    font-variant: small-caps;
+}
+
+#footer {
+    font-variant: small-caps;
+    color: gray;
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#result {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+
+.grid-block {
+    text-align: center;
+}
+
+#grid-block1 {
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 15px;
+}
+
+#result-score {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: aliceblue;
+}

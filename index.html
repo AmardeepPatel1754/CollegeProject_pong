@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Amardeep Sanjaybhai Patel, 000892525 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script1.js" defer></script>
+    <title>Assignment_4_000892525</title>
+</head>
+
+<body>
+    <div id="heading">Pong</div>
+
+    <p>
+        <button type="button" class="btn btn-info" id="start">Start</button>
+        <button type="button" class="btn btn-secondary" id="speedup">Upgrade Ball Speed</button>
+    </p>
+    <div class="grid-container">
+        <div id="grid-block">
+            <svg id="board" width="600" height="500" viewbox="0,0,1000,1000">
+
+                <rect id="mypaddle" x="10" y="980" height="10" width="150" fill="red" />
+
+            </svg>
+        </div>
+        <div id="grid-block1">
+            <button type="button" class="btn btn-success" id="left">Left</button>
+            <button type="button" class="btn btn-success" id="right">Right</button>
+            <div class="result" id="result-score">
+                SCORE: 0
+              </div>
+        </div>
+        
+    </div>
+    
+
+    <footer id="footer">&copy; Amardeep Patel | Mohawk College | 2023</footer>
+</body>
+
+</html>
