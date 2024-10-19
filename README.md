@@ -1,4 +1,4 @@
-# Pong Game
+# Pong
 
 A simple Pong game created.
 
